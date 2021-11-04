@@ -40,7 +40,12 @@ function App() {
     <div className="App">
       <Header />
       <form onSubmit={searchNewUser}>
-        <input type="text" name="username" ref={inputRef} />
+        <input
+          type="text"
+          name="username"
+          placeholder="Enter your GitHub user name"
+          ref={inputRef}
+        />
         <input type="submit" value="search"></input>
       </form>
       {user && <User userdata={user} />}

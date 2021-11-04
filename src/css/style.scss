@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    border: 30px solid black;
+}
+
+.header,
+.image {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.image {
+    border-radius: 50%;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+form {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.user {
+    width: 90%;
+    padding: 20px;
+    box-shadow: 2px 5px 8px gray;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 2px;
+}
